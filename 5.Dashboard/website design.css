@@ -1,0 +1,212 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    overflow: hidden;
+}
+
+#a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(39, 39, 230, 0.63);
+}
+
+#b{
+    width: 37%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1495121605193-b116b5b9c5fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#b i{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 2%;
+    left: 15px;
+    height: 35px;
+    width: 35px;
+    font-size: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+#c{
+    width: 43%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    background-position: center;
+    background-size: cover;
+}
+#d{
+    width: 20%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1520975829288-0493fb89e574?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    background-position: center;
+    background-size: cover;
+}
+#ctop{
+    margin-top: 2%;
+    width: 100%;
+    border-radius: 2%;
+    /*height: 50px;
+    background-color: darkmagenta;*/
+
+}
+#overlay{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.143);
+}
+#ctopleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    height: 100%;
+    font-family: montserrat;
+    font-weight: 100;
+}
+#ctopleft input{
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: transparent;
+    /*border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;*/
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.294);
+}
+#ctopleft h4{
+    font-family: montserrat;
+    font-weight: 300;
+}
+#ctopleft i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+#ctopright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#ctopright i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+#cbttm{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#cbttmtop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    height: 65px;
+    width: 100%;
+    /*background-color: rgba(0, 0, 0, 0.253);*/
+}
+#e{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    border-radius: 50%;
+    margin-left: 35px;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+#f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    margin-right: 35px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+#cbttmbtm{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 15px;
+    border-radius: 2%;
+    width: 95%;
+    height: 37%;
+    background-color: rgba(0, 0, 0, 0.328);
+}
+#cbttmbtm h2{
+    margin-top: 60px;
+    color: rgba(255, 255, 255, 0.863);
+    font-family: montserrat;
+    font-weight: 500;
+}
+#cbttmbtm p{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.719);
+    font-family: montserrat;
+    font-weight: 100;
+    font-size: 15px;
+}
+#d i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 85%;
+    margin-top: 120%;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+#g{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6%;
+    bottom: 0%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.397);
+    font-family: montserrat;
+    font-weight: 100;
+    padding: 0 30px;
+}
+#g h4{
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.63);
+}
